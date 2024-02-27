@@ -1,0 +1,27 @@
+For RABBIT MQ
+_______________________
+
+1) Install :  Erlang/OTP
+	Download Link:      https://www.erlang.org/downloads#source
+
+2) Install RABBIT MQ
+	Download Link:          https://rabbitmq-website.pages.dev/docs/install-windows#downloads
+
+ENV Configuration: 
+	System Environment Variable Name:   ERLANG_HOME
+	Path			            C:\Program Files\Erlang OTP
+
+	System Environment Variable Name:   RABBITMQ_SERVER
+	Path			           C:\Program Files\RabbitMQ Server\rabbitmq_server-3.13.0
+
+	UNV Path:                          %RABBITMQ_SERVER%\sbin
+
+http://localhost:15672/
+RABBIT MQ  Username: guest
+	   Password:  guest
+
+Details:           https://www.rabbitmq.com/docs/install-windows-manual#set-erlang-home-variable
+
+
+exchange  RabbitMQ server
+
